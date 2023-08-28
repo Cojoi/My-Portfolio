@@ -1,0 +1,269 @@
+body{
+    font: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+header{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #f8f8f8;
+
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+   display: inline-block;
+   margin-left: 10px;
+}
+nav ul li a{
+    color: #f8f8f8;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+section{
+    margin: 20px;
+    position: relative;
+    flex: 1 1 300px;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+.welcome-section{
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.welcome-section h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+.welcome-section h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.welcome-section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.advertisement-section{
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+    text-align: left;
+}
+
+.advertisement-section h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.advertisement-section img{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.advertisement-section h2{
+    font-size: 24px;
+}
+.advertisement-section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*contact*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font: sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: #333;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+
+}
+
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo a{
+    background-color: #333;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: #333;
+}
+
+header h1{
+    font-size: 20px;
+}
+
+main{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    padding: 20px;
+    flex: 1 1 300px;
+    border: 1px solid black;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 20px;
+}
+
+section h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+section p{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input, textarea{
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+button{
+    background-color: #333;
+    color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+
+/*about*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font: sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #f8f8f8;
+}
+
+header .logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header ,.logo a{
+    background-color: #333;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: #333;
+}
+
+header h1{
+    font-size: 24px;
+}
+
+main{
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+section{
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    flex: 1 1 300px;
+    border: 1px solid black;
+}
+
+section h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-left: 10px;
+    color: #333;
+    padding: 20px;
+    font-size: 20px;
+}
